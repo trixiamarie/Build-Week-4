@@ -76,6 +76,5 @@ add_action("after_setup_theme","customTheme_theme_support");
 
 
 // ---------------------------------------- CODICE TRIXIA ----------------------------------------------
-require_once('pluginTrixia.php');
-
+include_once('pluginTrixia.php');
 // -------------------------------------- FINE CODICE TRIXIA -------------------------------------
