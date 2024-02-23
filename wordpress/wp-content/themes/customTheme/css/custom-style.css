@@ -1,3 +1,92 @@
-html{
-    background: #00000070;
+body {
+    background-color: #F7F7F7;
 }
+
+/* === Navbar START ===*/
+.logo {
+    height: 100px;
+    width: 100px;
+}
+.main-nav {
+    padding: 20px 40px 20px 40px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu {
+    background-color: #333;
+    padding: 10px;
+  }
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-menu li {
+    display: inline;
+    margin-right: 20px;
+    border-right: 1px solid grey;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+  }
+  .nav-menu li:last-child {
+    border-right: none;
+  }
+  .nav-menu a {
+    color: #000;
+    text-decoration: none;
+  }
+  .nav-menu a:hover {
+    color: #ccc;
+  }
+  .menuDx {
+    
+  }
+  .prenotaBtn {
+    border: none;
+    border-radius: 15px 0 15px 0;
+    background-color: #0096BB;
+    padding: 0.6rem;
+  }
+/* === Navbar END ===*/
+
+
+/* === Hero START ===*/
+.videoHeader {
+    position: relative;
+    margin: 0.5rem 0 0 0;
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+}
+h1 {
+    color: #FFF;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 30%;
+    
+}
+/* === Hero END ===*/
+
+
+/* === Post Homepage START ===*/
+.cardWithP {
+    border: 0;
+    background-color: transparent;
+    overflow: hidden;
+    height: 30rem;
+}
+.imgHomePage{
+  border: 0;
+    height: 45rem;
+    overflow: hidden;
+}
+.homepageP{
+  font-size: 2rem;
+}
+/* === PostHomepage END ===*/
+
+
