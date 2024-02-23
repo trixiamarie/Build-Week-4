@@ -77,4 +77,21 @@ add_action("after_setup_theme","customTheme_theme_support");
 
 // ---------------------------------------- CODICE TRIXIA ----------------------------------------------
 require_once('pluginTrixia.php');
+// Funzione per creare il contenuto del widget
+function custom_dashboard_widget_content() {
+    echo "<p>Contenuto del mio widget personalizzato!</p>";
+}
+
+// Funzione per aggiungere il widget alla dashboard
+function add_custom_dashboard_widget() {
+    wp_add_dashboard_widget(
+        'custom_dashboard_widget',          // ID univoco del widget
+        'Widget Personalizzato',            // Titolo del widget
+        'custom_dashboard_widget_content'   // Callback per generare il contenuto del widget
+    );
+}
+
+// Aggiungi il widget utilizzando l'hook 'wp_dashboard_setup'
+add_action('wp_dashboard_setup', 'add_custom_dashboard_widget');
+
 // -------------------------------------- FINE CODICE TRIXIA -------------------------------------

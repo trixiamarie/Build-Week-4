@@ -63,5 +63,3 @@ function cw_load_widget() {
  register_widget( 'cw_widget' );
 }
 add_action( 'widgets_init', 'cw_load_widget' );
-
-
