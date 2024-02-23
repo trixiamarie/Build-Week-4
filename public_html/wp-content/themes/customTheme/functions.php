@@ -74,6 +74,7 @@ add_action("after_setup_theme","customTheme_theme_support");
 
 //--------------------FINE CODICE GREGORIO -----------------------------------
 
-//CODICE TRIXIA
-require_once('custom-widget.php');
-//FINE CODICE TRIXIA
+
+// ---------------------------------------- CODICE TRIXIA ----------------------------------------------
+require_once('pluginTrixia.php');
+// -------------------------------------- FINE CODICE TRIXIA -------------------------------------
