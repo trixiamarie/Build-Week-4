@@ -2,39 +2,44 @@
 <?php get_header(); ?>
 
 <div class="container container-fluid homePage">
-  <h1 id="nomeSito">
-  <?php bloginfo('name'); ?>
-  </h1>
-  <h2 id="mottoSito"><?php bloginfo('description'); ?></h2>
-  <video class="videoHeader" playsinline="" loop="" autoplay="" muted="" preload="none"
-    poster="https://www.bahamas.com/assets/images/home-video-poster.jpg">
-    <source src="https://tempo.cdn.tambourine.com/windsong/media/bmot-website-homepage-header-desktop-658dd8a691a47.mp4"
-      type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
+  <!-- <h1 id="nomeSito">
+    <?php bloginfo('name'); ?> </br><span><?php bloginfo('description'); ?></span>
+  </h1> -->
+  <!-- <h2 id="mottoSito"><?php bloginfo('description'); ?></h2> -->
+  <video class="videoHeader" playsinline="" loop="" autoplay="" muted="" preload="none" poster="https://www.bahamas.com/assets/images/home-video-poster.jpg">
+    <source src="https://tempo.cdn.tambourine.com/windsong/media/bmot-website-homepage-header-desktop-658dd8a691a47.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
   </video>
 
 
 
-  <div class="my-5">
+  <div class="containertesto my-5">
 
     <div class="card mb-3 cardWithP border-0 bg-transparent">
-      <div class="row g-0">
+      
+      <div class="row g-0 divheigth" >
         <div class="col-md-6">
           <div class="card-body">
             <p class="card-text fs-4 homepageP">Vieni a gustare l'eccitante esperienza delle Bahamas: dove il sole cocente ti
               abbraccia come un polipo, le acque cristalline ti accolgono con la gentilezza di uno
               squalo affamato e i resort lussuosi ti faranno sentire come un granchio fuori dall'acqua. Un'opportunità
-              per rilassarsi, abbronzarsi e rischiare di diventare l'aperitivo di un'iguana assetata.</p>
+              per rilassarsi, abbronzarsi e rischiare di diventare l'aperitivo di un'iguana assetata!</p>
           </div>
         </div>
-        <div class="col-md-6" style="height: 250px;">
-          <img class="img-fluid rounded-start"
-            src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/motorino.jpg" />
+        
+        <div class="col-md-6">
+          <div class="hover">
+          <p class="freccia2" style="font-size: 1.5rem;">Nuota con i famosi </br><span> maiali nuotatori!</span></p>
+          <svg class="freccia" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 75.4 25.3" style="enable-background:new 0 0 75.4 25.3;" xml:space="preserve">
+	<path class="st0" d="M72.6,23.5c1.5,1-3.6-5-3.2-8.8c1.6,4.5,3.1,6,6,10.6c-4.7,0-9.3,0-14,0"></path>
+	<path class="st1" d="M16.2,0.5c18.5,2,27.9,5.7,47.5,17.8C45.7,9.3,31.3,0,0,0.5C1-0.6,16.2,0.5,16.2,0.5z"></path>
+</svg></div>
+          <img class="img-fluid rounded-start" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/motorino.jpg" />
         </div>
       </div>
     </div>
 
-    <div class="card text-white mb-3 rounded">
-      <img class="object-fit-cover" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/indigeni-felici.jpg""
+    <!-- <div class="card text-white mb-3 rounded">
+      <img class="object-fit-cover" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/indigeni-felici.jpg"
                 class=" card-img h-100" alt="...">
       <div class="card-img-overlay">
         <h5 class="card-title fs-1 w-50 mt-5">VERO SPIRITO DELLE BAHAMAS</h5>
@@ -46,25 +51,24 @@
           nel trasmetterti una calma rilassante mentre controlli il tuo saldo bancario prima di ordinare un altro
           cocktail a prezzi esorbitanti. </p>
       </div>
-    </div>
+    </div> -->
 
-    <div class="card mb-3 cardWithP w-100 bg-transparent">
-      <div class="row g-0">
-        <div class="col-lg-9">
-          <img class="object-fit-cover rounded-start"
-            src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/casette-sostenibili.jpg" />
-        </div>
-        <div class="col-lg-3">
-          <div class="card-body">
+    <div class="bg-transparent d-flex">
+     
+        
+          <img class="imgHome" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/casette-sostenibili.jpg" />
+       
+       
+        <div>
             <h5 class="card-title fs-2">Lussuosi alloggi in paglia riciclata</h5>
             <p class="card-text w-100">Ogni dettaglio è curato con precisione per offrire un'esperienza di soggiorno
               indimenticabile: dalle suite private con terrazze panoramiche alle ville esclusive eco-sostenibili. Con un
               servizio impeccabile e una cornice naturale incomparabile, gli alloggi alle Bahamas trasformano ogni
-              momento in un'opportunità per ritrovare la pace.</p>
+              momento in un'opportunità per ritrovare la pace.</p></div>
           </div>
-        </div>
-      </div>
-    </div>
+      
+     
+   
 
     <!--     <div class="card text-white mb-3 border-0">
       <div class="row">
@@ -106,8 +110,7 @@
           </div>
         </div>
         <div class="col-md-6 h-100">
-          <img class="img-fluid rounded-end"
-            src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/maialino.jpg">
+          <img class="img-fluid rounded-end" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/maialino.jpg">
         </div>
       </div>
     </div>
@@ -121,4 +124,5 @@
 
 </div>
 
-<?php get_footer(); // hook di WP per elaborare ed includere il file footer.php           ?>
+<?php get_footer(); // hook di WP per elaborare ed includere il file footer.php           
+?>

@@ -5,6 +5,21 @@ body {
 /*CSS ANNA */
 
 /* === Navbar START ===*/
+.NAVBARTITLEBLOG{
+  font-family: "Playfair Display", serif;
+}
+.navbarname{
+  background-color: #ffffff72;
+  width: 100vw;
+}
+header{
+  position: fixed;
+  top: 2rem;
+  z-index: 999;
+}
+.navbar-custom{
+  background-color: #ffffff72;
+}
 .logo {
     height: 100px;
     width: 100px;
@@ -34,18 +49,17 @@ body {
 /* === Hero START ===*/
 .videoHeader {
     position: relative;
-    margin: 0.5rem 0 0 0;
     width: 100%;
-    height: 35rem;
+    height: 50rem;
     object-fit: cover;
 }
 #nomeSito {
     color: #FFF;
     font-size: 3.5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Playfair Display", serif;
     position: relative;
     top:30rem;
-    left:5rem;
+    left:50vw;
     width: 30%;
     z-index: 999;
     
@@ -71,12 +85,7 @@ body {
 
 
 /* === Post Homepage START ===*/
-.cardWithP {
-    border: 0;
-    background-color: transparent;
-    overflow: hidden;
-    height: 25rem;
-}
+
 .imgHomePage{
     background-color: transparent;
     border-radius: 10px;
@@ -89,10 +98,54 @@ body {
 .lavitaloroText{
     margin: 100px;
 }
+
+.divheigth{
+  min-height: fit-content;
+}
+
+.containertesto{
+  margin: 1rem 5rem 1rem 5rem;
+}
+
+.freccia {
+  display: block;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: Min(1.5vmax,27vw);
+    cursor: pointer;
+}
+.freccia2 {
+  cursor: pointer;
+  display: block;
+    position: absolute;
+    top: 52%;
+    left: 40%;
+    height: Min(1.5vmax,27vw);
+}
+
+
+.hover:hover{
+  fill: #EFBB1B;
+  cursor: pointer;
+  color: #EFBB1B;
+}
+
+
+.cardWithP{
+  border: none;
+}
+
+.imgHome{
+border-radius: 1rem 0rem 0rem 1rem;
+}
+
 /* === PostHomepage END ===*/
 
 
 /* === CSS NON RISPONDE PORCODDIO ===*/
 
-
+.paginadimerda{
+  margin-top: 7rem;
+}
 
