@@ -60,8 +60,8 @@
        
        
         <div>
-            <h5 class="card-title fs-2">Lussuosi alloggi in paglia riciclata</h5>
-            <p class="card-text w-100">Ogni dettaglio è curato con precisione per offrire un'esperienza di soggiorno
+            <h5 class="fs-2">Lussuosi alloggi in paglia riciclata</h5>
+            <p class="fs-4">Ogni dettaglio è curato con precisione per offrire un'esperienza di soggiorno
               indimenticabile: dalle suite private con terrazze panoramiche alle ville esclusive eco-sostenibili. Con un
               servizio impeccabile e una cornice naturale incomparabile, gli alloggi alle Bahamas trasformano ogni
               momento in un'opportunità per ritrovare la pace.</p></div>

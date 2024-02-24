@@ -137,8 +137,14 @@ header{
 }
 
 .imgHome{
-border-radius: 1rem 0rem 0rem 1rem;
+border-radius: 10rem 0rem 10rem 0rem;
+margin: 0rem 1rem 0rem 0rem;
 }
+
+.imgHome2{
+  border-radius: 0rem 10rem 0rem 10rem;
+  
+  }
 
 /* === PostHomepage END ===*/
 
