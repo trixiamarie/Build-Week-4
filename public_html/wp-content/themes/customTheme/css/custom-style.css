@@ -1,0 +1,98 @@
+body {
+    background-color: #F7F7F7;
+}
+
+/*CSS ANNA */
+
+/* === Navbar START ===*/
+.logo {
+    height: 100px;
+    width: 100px;
+}
+#menu-newmenu {
+}
+.menu-item {
+    font-size: 1.2rem;
+    border-right: 1px solid grey;
+}
+.menu-item:last-child{
+  border-right: none;
+}
+  .prenotaBtn {
+    border: none;
+    border-radius: 15px 0 15px 0;
+    background-color: #0096BB;
+  }
+  .prenotaBtn:hover {
+    border: none;
+    border-radius: 0 15px 0 15px;
+    background-color: #8bafb8;
+  }
+/* === Navbar END ===*/
+
+
+/* === Hero START ===*/
+.videoHeader {
+    position: relative;
+    margin: 0.5rem 0 0 0;
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+}
+#nomeSito {
+    color: #FFF;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top:30rem;
+    left:5rem;
+    width: 30%;
+    z-index: 999;
+    
+}
+
+#mottoSito {
+  color: #FFF;
+  font-size: 3.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top:35rem;
+  left:5rem;
+  width: 30%;
+  z-index: 999;
+  
+}
+
+.container{
+  max-width: none;
+  --bs-gutter-x:0rem;
+}
+/* === Hero END ===*/
+
+
+/* === Post Homepage START ===*/
+.cardWithP {
+    border: 0;
+    background-color: transparent;
+    overflow: hidden;
+    height: 25rem;
+}
+.imgHomePage{
+    background-color: transparent;
+    border-radius: 10px;
+    height: 45rem;
+    overflow: hidden;
+}
+.homepageP{
+  font-size: 2rem;
+}
+.lavitaloroText{
+    margin: 100px;
+}
+/* === PostHomepage END ===*/
+
+
+/* === CSS NON RISPONDE PORCODDIO ===*/
+
+
+
