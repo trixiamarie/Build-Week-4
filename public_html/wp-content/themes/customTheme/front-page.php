@@ -15,8 +15,8 @@
   <div class="containertesto my-5">
 
     <div class="card mb-3 cardWithP border-0 bg-transparent">
-      
-      <div class="row g-0 divheigth" >
+
+      <div class="row g-0 divheigth">
         <div class="col-md-6">
           <div class="card-body">
             <p class="card-text fs-4 homepageP">Vieni a gustare l'eccitante esperienza delle Bahamas: dove il sole cocente ti
@@ -25,14 +25,15 @@
               per rilassarsi, abbronzarsi e rischiare di diventare l'aperitivo di un'iguana assetata!</p>
           </div>
         </div>
-        
+
         <div class="col-md-6">
           <div class="hover">
-          <p class="freccia2" style="font-size: 1.5rem;">Nuota con i famosi </br><span> maiali nuotatori!</span></p>
-          <svg class="freccia" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 75.4 25.3" style="enable-background:new 0 0 75.4 25.3;" xml:space="preserve">
-	<path class="st0" d="M72.6,23.5c1.5,1-3.6-5-3.2-8.8c1.6,4.5,3.1,6,6,10.6c-4.7,0-9.3,0-14,0"></path>
-	<path class="st1" d="M16.2,0.5c18.5,2,27.9,5.7,47.5,17.8C45.7,9.3,31.3,0,0,0.5C1-0.6,16.2,0.5,16.2,0.5z"></path>
-</svg></div>
+            <p class="freccia2" style="font-size: 1.5rem;">Nuota con i famosi </br><span> maiali nuotatori!</span></p>
+            <svg class="freccia" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 75.4 25.3" style="enable-background:new 0 0 75.4 25.3;" xml:space="preserve">
+              <path class="st0" d="M72.6,23.5c1.5,1-3.6-5-3.2-8.8c1.6,4.5,3.1,6,6,10.6c-4.7,0-9.3,0-14,0"></path>
+              <path class="st1" d="M16.2,0.5c18.5,2,27.9,5.7,47.5,17.8C45.7,9.3,31.3,0,0,0.5C1-0.6,16.2,0.5,16.2,0.5z"></path>
+            </svg>
+          </div>
           <img class="img-fluid rounded-start" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/motorino.jpg" />
         </div>
       </div>
@@ -54,21 +55,26 @@
     </div> -->
 
     <div class="bg-transparent d-flex">
+      <img class="imgHome" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/casette-sostenibili.jpg" />
+      <div>
+        <h5 class="fs-2">LUSSUOSI ALLOGGI CHE AMANO L'AMBIENTE</h5>
+        <p class="fs-4">Ogni dettaglio è curato con precisione per offrire un'esperienza di soggiorno
+          indimenticabile: dalle suite private con terrazze panoramiche alle ville esclusive eco-sostenibili. Con un
+          servizio impeccabile e una cornice naturale incomparabile, gli alloggi alle Bahamas trasformano ogni
+          momento in un'opportunità per ritrovare la pace.</p>
+      </div>
+    </div>
+
+    <div class="bg-transparent d-flex">
      
-        
-          <img class="imgHome" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/casette-sostenibili.jpg" />
-       
-       
-        <div>
-            <h5 class="fs-2">Lussuosi alloggi in paglia riciclata</h5>
-            <p class="fs-4">Ogni dettaglio è curato con precisione per offrire un'esperienza di soggiorno
-              indimenticabile: dalle suite private con terrazze panoramiche alle ville esclusive eco-sostenibili. Con un
-              servizio impeccabile e una cornice naturale incomparabile, gli alloggi alle Bahamas trasformano ogni
-              momento in un'opportunità per ritrovare la pace.</p></div>
-          </div>
-      
-     
-   
+      <div>
+        <h5 class="fs-2">VERO SPIRITO DELLE BAHAMAS</h5>
+        <p class="fs-4">I locali alle Bahamas sono maestri del relax, accogliendoti sempre con un sorriso e un caloroso "Hello, mon!" genuino come una pubblicità di dentifricio. Vivono nell'eterno "island time", dove le lancette dell'orologio sembrano rallentare. Il concetto di "stress" sembra estraneo a loro, trasmettendo una calma rilassante mentre controlli il saldo bancario prima di ordinare un cocktail a prezzi esorbitanti.</p>
+      </div> 
+      <img class="imgHome" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/indigeni-felici.jpg" />
+    </div>
+
+
 
     <!--     <div class="card text-white mb-3 border-0">
       <div class="row">
@@ -91,7 +97,7 @@
     </div> -->
 
 
-    <div class="card mb-3 cardWithP">
+    <!-- <div class="card mb-3 cardWithP">
       <div class="row g-0">
         <div class="col-md-6">
           <div class="card-body">
@@ -113,12 +119,20 @@
           <img class="img-fluid rounded-end" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/maialino.jpg">
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="card cardMap">
       <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/agua.jpg">
       <?php include get_parent_theme_file_path('template-parts/bahamasMap.php') ?>
     </div>
+
+    <!-- <div class="bg-transparent d-flex">
+      <img class="d-none d-md-flex img-fluid" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/lavitaloro.jpg" />
+      <div>
+      <img class="img-fluid" style="margin:3.7rem 0rem 0rem 0rem; height: 40.6rem;
+    width: 50rem;" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/lavitaloroagua.jpg" />
+      </div>
+    </div> -->
 
   </div>
 
