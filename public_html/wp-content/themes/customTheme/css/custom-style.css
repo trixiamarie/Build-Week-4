@@ -14,7 +14,7 @@ body {
 }
 header{
   position: fixed;
-  top: 2rem;
+  padding-top: 2rem;
   z-index: 999;
 }
 .navbar-custom{
@@ -104,7 +104,7 @@ header{
 }
 
 .containertesto{
-  margin: 1rem 5rem 1rem 5rem;
+  margin: 0rem 5rem 1rem 5rem;
 }
 
 .freccia {
@@ -155,6 +155,6 @@ h1.wp-block-heading{
 /* === CSS NON RISPONDE PORCODDIO ===*/
 
 .paginadimerda{
-  margin-top: 7rem;
+  padding-top: 10rem;
 }
 

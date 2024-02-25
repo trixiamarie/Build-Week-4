@@ -3,7 +3,7 @@
 
 
 
-<div class="containertesto paginadimerda pt-3 fs-4">
+<div class="containertesto paginadimerda fs-4">
 
 <?php if(have_posts()){
     while(have_posts()){
