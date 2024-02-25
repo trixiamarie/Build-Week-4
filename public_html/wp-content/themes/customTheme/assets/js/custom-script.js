@@ -6,7 +6,7 @@ function cambioColore() {
   let scrollTop = window.scrollY;
 
   let header = document.querySelector("header");
-  let altezza = 450;
+  let altezza = 10;
 
   if (scrollTop > altezza) {
     header.style.backgroundColor = "white";
