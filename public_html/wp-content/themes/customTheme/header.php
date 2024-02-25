@@ -15,10 +15,10 @@
 
     <!-- ***** Header Area Start ***** -->
     <header class="navbarname">
-        <div class="d-flex text-center justify-content-center">
-        <!-- <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/pngtree-palm-tree-silhouette-vector-png-image_6020890.jpg"> -->
+        <div class="d-flex text-center justify-content-center align-items-center">
+        <img class="imgNavbar" style="width:4rem" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/palme.png">
         <h1 class="text-center NAVBARTITLEBLOG"><?php bloginfo('name'); ?></h1>
-        <!-- <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/pngtree-palm-tree-silhouette-vector-png-image_6020890.jpg"> -->
+        <img class="imgNavbar" style="width:4rem;transform: scaleX(-1);" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/palme.png">
     </div>
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">

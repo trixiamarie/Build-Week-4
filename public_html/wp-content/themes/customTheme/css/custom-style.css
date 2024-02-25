@@ -145,6 +145,10 @@ height: 35rem;
 width: 70rem;
 }
 
+h1.wp-block-heading{
+  font-family: "Playfair Display", serif;
+}
+
 /* === PostHomepage END ===*/
 
 

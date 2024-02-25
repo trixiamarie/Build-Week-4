@@ -1,6 +1,6 @@
 <footer class="absolute-bottom">
     <div class="row my-3 align-items-start">
-        <div class="col-md-3 text-center"><img src="http://nuotaconnoi.netsons.org/wp-content/uploads/2024/02/d3d2c3a4-3543-4889-970d-bb699a1ef299.jpg" width="150px"></div>
+        <div class="col-md-3 text-center"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/Untitled.png" width="150px"></div>
         <div class="col-md-6 text-center">
             <ul class="list-unstyled d-flex justify-content-evenly flex-wrap">
                 <li><a href="#" class="text-decoration-none">Meetings</a></li>

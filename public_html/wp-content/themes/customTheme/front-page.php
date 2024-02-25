@@ -14,7 +14,7 @@
 
   <div class="containertesto my-5">
 
-    <div class="card mb-3 cardWithP border-0 bg-transparent">
+    <div class="containertesto card mb-3 cardWithP border-0 bg-transparent">
 
       <div class="row g-0 divheigth">
         <div class="col-md-6">
@@ -55,13 +55,13 @@
     </div> -->
 
     <div class="containertesto">
-    <div class="row">
+    <div class="row align-items-center">
         <div class="col-md-6 bg-transparent d-flex">
             <img class="img-fluid imgHome" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/casette-sostenibili.jpg" alt="Immagine">
         </div>
         <div class="col-md-6">
             <div class="d-flex flex-column justify-content-center">
-                <h5 class="fs-2">LUSSUOSI ALLOGGI CHE AMANO L'AMBIENTE</h5>
+                <h5 class="fs-2"><img class="imgNavbar" style="width:4rem" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/palme.png">LUSSUOSI ALLOGGI CHE AMANO L'AMBIENTE</h5>
                 <p class="fs-4">Ogni dettaglio è curato con precisione per offrire un'esperienza di soggiorno indimenticabile: dalle suite private con terrazze panoramiche alle ville esclusive eco-sostenibili. Con un servizio impeccabile e una cornice naturale incomparabile, gli alloggi alle Bahamas trasformano ogni momento in un'opportunità per ritrovare la pace.</p>
             </div>
         </div>
@@ -70,11 +70,11 @@
 
 
 <div class="containertesto">
-    <div class="row">
+    <div class="row align-items-center">
         <div class="col-md-6 bg-transparent d-flex">
             <div class="d-flex flex-column justify-content-center">
-                <h5 class="fs-2">VERO SPIRITO DELLE BAHAMAS</h5>
-                <p class="fs-4">I locali alle Bahamas sono maestri del relax, accogliendoti sempre con un sorriso e un caloroso "Hello, mon!" genuino come una pubblicità di dentifricio. Vivono nell'eterno "island time", dove le lancette dell'orologio sembrano rallentare. Il concetto di "stress" sembra estraneo a loro, trasmettendo una calma rilassante mentre controlli il saldo bancario prima di ordinare un cocktail a prezzi esorbitanti.</p>
+                <h5 class="fs-2" style="text-align: right;">VERO SPIRITO DELLE BAHAMAS<img class="imgNavbar" style="width:4rem" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/palme.png"></h5>
+                <p class="fs-4" style="text-align: right;">I locali alle Bahamas sono maestri del relax, accogliendoti sempre con un sorriso e un caloroso "Hello, mon!" genuino come una pubblicità di dentifricio. Vivono nell'eterno "island time", dove le lancette dell'orologio sembrano rallentare. Il concetto di "stress" sembra estraneo a loro, trasmettendo una calma rilassante mentre controlli il saldo bancario prima di ordinare un cocktail a prezzi esorbitanti.</p>
             </div>
         </div>
         <div class="col-md-6">
