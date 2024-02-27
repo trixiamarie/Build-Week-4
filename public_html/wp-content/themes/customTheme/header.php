@@ -14,10 +14,10 @@
 
 
     <!-- ***** Header Area Start ***** -->
-    <header class="navbarname">
+    <header class="navbarname" style="padding-left: 1rem;padding-right: 4rem;">
         <div class="d-flex text-center justify-content-center align-items-center">
         <img class="imgNavbar" style="width:4rem" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/palme.png">
-        <h1 class="text-center NAVBARTITLEBLOG"><?php bloginfo('name'); ?></h1>
+        <a class="text-decoration-none text-black" href="<?php echo home_url(); ?>"><h1 class="text-center NAVBARTITLEBLOG"><?php bloginfo('name'); ?></h1></a>
         <img class="imgNavbar" style="width:4rem;transform: scaleX(-1);" src="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/palme.png">
     </div>
         <nav class="navbar navbar-expand-md">

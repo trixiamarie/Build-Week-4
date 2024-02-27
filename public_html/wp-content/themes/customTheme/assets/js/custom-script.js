@@ -14,3 +14,22 @@ function cambioColore() {
     header.style.backgroundColor = ""; 
 }
 }
+alert("ciao tritri");
+console.log("ciaoooooooooooooooooooooooooooooooo");
+// ------------------------------------ CODICE GREGORIO ---------------------------------------------------
+
+function scrolla(verso, carosello) {
+  let carosello = document.querySelector(`#${carosello} .carousel-inner`);
+  let scrollata = carosello.offsetWidth * 0.85;
+  let maxScrollLeft = carosello.scrollWidth - carosello.offsetWidth;
+  if (verso === -1) {
+      carosello.scrollLeft -= scrollata;
+  } else {
+      carosello.scrollLeft += scrollata;
+  }
+  if (carosello.scrollLeft >= maxScrollLeft) {
+      carosello.scrollLeft = 0;
+  }
+}
+
+// ------------------------------------FINE CODICE GREGORIO ---------------------------------------------------
